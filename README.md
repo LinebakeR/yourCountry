@@ -16,7 +16,7 @@ Project using ReactJs
 
 Only a simple page where you can find countries informations.
 
-Using API https://restcountries.eu/.
+Using API https://restcountries.eu/
 
 Search bar with autocompletion, matching with the name of the country, not case sensitive. Click on the result and display country's informations.
 
