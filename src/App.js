@@ -33,7 +33,7 @@ export default class Main extends React.Component {
 			console.log('value', value.length);
 		}
 		let suggestion = [];
-		const newCount = countries.map((el) => el.nativeName);
+		const newCount = countries.map((el) => el.name);
 		if (value.length > 0) {
 			const regex = new RegExp(`^${value}`, 'i');
 			suggestion = newCount.sort().filter((v) => regex.test(v));
